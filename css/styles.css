@@ -507,3 +507,15 @@ img {
 .footer_icon{
   fill: #f4f4fd;
 }
+
+.p_footer_form{
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 00.02em;
+  color: #fff;
+}
+
+.p_footer_form{
+  display: flex;
+  gap: 24px;
+}
