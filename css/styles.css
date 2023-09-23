@@ -508,10 +508,14 @@ img {
   fill: #f4f4fd;
 }
 
+.container_footer_form{
+  margin-left: 80px;
+}
+
 .form {
   display: flex;
   gap: 24px;
-
+  
 }
 
 .p_footer_form{
