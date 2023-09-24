@@ -634,13 +634,13 @@ img {
 }
 /* ----------------------------------------------------------- */
 .container_modal_name,
-.container_modal_phone,
+
 .container_modal_email {
   margin-bottom: 8px;
 }
 
 .user_name,
-.user_phone,
+
 .user_email {
   font-size: 12px;
   line-height: 1.17;
@@ -651,13 +651,13 @@ img {
 }
 
 .name_icon,
-.phone_icon,
+
 .email_icon {
   position: relative;
 }
 
 .input_name_icon,
-.input_phone_icon,
+
 .input_email_icon {
   width: 100%;
   height: 40px;
@@ -670,13 +670,13 @@ img {
 }
 
 .input_name_icon:focus,
-.input_phone_icon:focus,
+
 .input_email_icon:focus {
   border-color: #4d5ae5;
 }
 
 .svg_name_icon,
-.svg_phone_icon,
+
 .svg_email_icon {
   position: absolute;
   left: 16px;
@@ -687,7 +687,7 @@ img {
 
 /* TODO: check this */
 .svg_name_icon:focus,
-.svg_phone_icon:focus,
+
 .svg_email_icon:focus {
   fill: #4d5ae5;
 }
