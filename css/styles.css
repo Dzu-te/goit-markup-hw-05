@@ -634,9 +634,10 @@ img {
   margin-bottom: 16px;
 }
 
-.container_modal_name,
+.container_modal
+/* .container_modal_name,
 .container_modal_phone,
-.container_modal_email{
+.container_modal_email */{
   margin-bottom: 8px;
 }
 
