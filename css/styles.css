@@ -634,15 +634,11 @@ img {
   margin-bottom: 16px;
 }
 
-.container_modal_name,
-.container_modal_phone,
-.container_modal_email{
+.container_modal_form{
   margin-bottom: 8px;
 }
 
-.user_name,
-.user_phone,
-.user_email{
+.modal_lable{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -651,9 +647,7 @@ img {
   margin-bottom: 4px;  
 }
 
-.name_icon,
-.phone_icon,
-.email_icon{
+.container_icon{
   position: relative;
 }
 
