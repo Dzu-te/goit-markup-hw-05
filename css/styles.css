@@ -703,3 +703,7 @@ img {
 .modal_textarea:focus{
   border-color: #4D5AE5;
 }
+
+.container_checkbox{
+  margin-bottom: 24px;
+}
