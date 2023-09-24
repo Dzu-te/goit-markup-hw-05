@@ -559,6 +559,8 @@ img {
   fill: #ffffff;
 }
 
+/* MODAL FIELD */
+
 .container_modal_field {
   position: fixed;
   top: 0;
@@ -583,8 +585,6 @@ img {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* MODAL FIELD */
 
 .modal_field {
   padding: 72px 24px 24px 24px;
@@ -673,7 +673,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* TODO: check this */
 .input_modal_icon:focus + .svg_modal_icon {
   fill: #4d5ae5;
 }
