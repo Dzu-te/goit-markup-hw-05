@@ -676,7 +676,7 @@ img {
 }
 
 /* TODO: check this */
-.svg_modal_icon:focus{
+.input_modal_icon:focus + .svg_modal_icon{
   fill: #4D5AE5;
 }
 
