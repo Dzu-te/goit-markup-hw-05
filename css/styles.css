@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
 }
 
-.visually_hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -729,4 +729,10 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+#user-privacy:checked + .span_privacy {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
