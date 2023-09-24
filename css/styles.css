@@ -586,7 +586,7 @@ img {
 
 /* MODAL FIELD */
 
-.modal_field {
+.modal_field{
   padding: 72px 24px 24px 24px;
 }
 
@@ -609,56 +609,57 @@ img {
 }
 
 .modal_button:hover,
-.modal_button:focus {
+.modal_button:focus{
   background-color: #404bbf;
   border: none;
 }
 
-.modal_svg_close {
+.modal_svg_close{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal_button:hover,
-.modal_button:focus {
+.modal_button:focus
+{
   fill: #ffffff;
 }
 
-.p_modal {
+.p_modal{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2E2F42;
   margin-bottom: 16px;
 }
-/* ----------------------------------------------------------- */
-.container_modal_name,
 
-.container_modal_email {
+.container_modal_name,
+.container_modal_phone,
+.container_modal_email{
   margin-bottom: 8px;
 }
 
 .user_name,
-
-.user_email {
+.user_phone,
+.user_email{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 4px;  
 }
 
 .name_icon,
-
-.email_icon {
+.phone_icon,
+.email_icon{
   position: relative;
 }
 
 .input_name_icon,
-
-.input_email_icon {
+.input_phone_icon,
+.input_email_icon{
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -669,15 +670,16 @@ img {
   outline: transparent;
 }
 
-.input_name_icon:focus,
 
-.input_email_icon:focus {
-  border-color: #4d5ae5;
+.input_name_icon:focus,
+.input_phone_icon:focus,
+.input_email_icon:focus{
+  border-color: #4D5AE5;
 }
 
 .svg_name_icon,
-
-.svg_email_icon {
+.svg_phone_icon,
+.svg_email_icon{
   position: absolute;
   left: 16px;
   top: 50%;
@@ -687,54 +689,8 @@ img {
 
 /* TODO: check this */
 .svg_name_icon:focus,
-
-.svg_email_icon:focus {
-  fill: #4d5ae5;
-}
-/* ------------------------------------------------------------ */
-
-.container_modal_phone {
-  margin-bottom: 8px;
+.svg_phone_icon:focus,
+.svg_email_icon:focus{
+  fill: #4D5AE5;
 }
 
-.user_phone {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.phone_icon {
-  position: relative;
-}
-
-.input_phone_icon {
-  width: 100%;
-  height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  padding-left: 38px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: transparent;
-}
-
-.input_phone_icon:focus {
-  border-color: #4d5ae5;
-}
-
-.svg_phone_icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* TODO: check this */
-
-.svg_phone_icon:focus {
-  fill: #4d5ae5;
-}
