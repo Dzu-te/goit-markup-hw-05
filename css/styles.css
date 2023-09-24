@@ -662,6 +662,7 @@ img {
   outline: transparent;
 }
 
+
 .input_name_icon:focus{
   border-color: #4D5AE5;
 }
@@ -674,7 +675,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg_name_icon:hover,
+/* TODO: check this */
 .svg_name_icon:focus{
   fill: #4D5AE5;
 }
