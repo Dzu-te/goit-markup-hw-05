@@ -62,7 +62,7 @@
           <h1 class="hero_section_one">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" id="openButton">Order Service</button>
         </div>
       </section>
       <!-- section 1 description company -->
@@ -491,9 +491,9 @@
       </div>
     </footer>
     <!-- modal field -->
-    <div class="container_modal_field">
+    <div class="container_modal_field is-hidden" id="overLay">
       <div class="modal_field">
-        <button class="modal_button" type="button">
+        <button class="modal_button" type="button" id="closeButton">
           <svg class="modal_svg_close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -563,7 +563,7 @@
             <label class="label_privacy" for="user-privacy">
               <span class="span_privacy">
                 <svg class="svg_privacy" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkbox"></use>
+                  <use href="./images/icons.svg#icon-checked"></use>
                 </svg> </span
               >I accept the terms and conditions of the
 
@@ -574,5 +574,6 @@
         </form>
       </div>
     </div>
+    <script src="./java-script.js"></script>
   </body>
 </html>
