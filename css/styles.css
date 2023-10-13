@@ -748,7 +748,7 @@ img {
 .input_privacy:checked+.label_privacy>.span_privacy {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4f4;
+  fill: #F4F4FD;
 }
 
 .a_privacy {
